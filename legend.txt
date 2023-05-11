@@ -1,0 +1,35 @@
+features:
+
+admin login
+[login_admin.html] -> [admin_login.php] ->
+[admin.php]
+
+student login
+[login_student.html] -> [student_login.php] ->
+[student.php]
+
+
+---
+
+login
+[login.html] -> [login_process.php] -> [student.php] OR [admin.php]
+
+upload submission (student)
+[student.php] ->[m1.php] ->[submit.php] -> [submission_upload.php] ->[submit.php]
+
+edit profile (student)
+[student.php] ->[profile.php] -> [student_update_profile.php] ->[profile.php]
+
+assign milestone dates  (admin)
+[admin.php] -> [set_m1.php] -> [set_date.php] ->[admin.php]
+
+assign l-s (admin)
+[admin.php] ->[lecturer-student.php] -> [update_l-s.php]
+
+autocomplete (assign l-s)
+[lecturer-student.php] -> [script.js][$("#search_id").keyup(function ()] -> [action_search_id] -> 
+[script.js][$(#show-list-id).on("click", "a", function ()] ->
+[lecturer-student.php]
+
+
+

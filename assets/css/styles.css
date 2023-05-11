@@ -1,0 +1,85 @@
+/* hover style */
+
+#link1:hover, #link2:hover, #link3:hover {
+  border-radius: 5px;
+  background-color: #e3e3e3;
+}
+
+/* item 1 */
+
+@media (max-width:768px) {
+  #link1 {
+    width: 70px;
+  }
+}
+
+@media (width:768px) {
+  #link1 {
+    width: auto;
+  }
+}
+
+@media (max-width:768px) {
+  #span1 {
+    display: none;
+  }
+}
+
+@media (width:768px) {
+  #link1 {
+    display: initial;
+  }
+}
+
+/* item 2 */
+
+@media (max-width:768px) {
+  #link2 {
+    width: 70px;
+  }
+}
+
+@media (width:768px) {
+  #link2 {
+    width: auto;
+  }
+}
+
+@media (max-width:768px) {
+  #span2 {
+    display: none;
+  }
+}
+
+@media (width:768px) {
+  #span2 {
+    display: initial;
+  }
+}
+
+/* item 3 */
+
+@media (max-width:768px) {
+  #link3 {
+    width: 70px;
+  }
+}
+
+@media (width:768px) {
+  #link3 {
+    width: auto;
+  }
+}
+
+@media (max-width:768px) {
+  #span3 {
+    display: none;
+  }
+}
+
+@media (width:768px) {
+  #span3 {
+    display: initial;
+  }
+}
+
